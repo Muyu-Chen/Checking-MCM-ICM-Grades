@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grades Cheaking System</title>
+</head>
+<body>
+    <h1 style="font-size:50px">SYSTEM LOG</h1>
+    <div style="font-size:30px">
+        This is a web created by python to cheak grades of team #2300368 by visiting the <a href="https://www.comap-math.com/mcm/2023Certs/2300368.pdf" title="cheak grades of team #2300368" target="_blank">webpage</a> of download the ICM certification. The program will visit the website every 110 to 130 seconds and show the result on this page.
+    </div><br />
+    <div style="font-size:25px">
+        Q: Why the web uses English?<br />A: Because I met a problem when I wrote this website, and <a href="https://blog.csdn.net/weixin_40009393/article/details/111424276" title="problem" target="_blank">here</a> is the reason of the problem. That means that I cannot use
+         a convenient tool when my website is not encoded by ANSI. That is, I could not use Chinese on this website.
+</div><br />
+    <table border="0">
+        <tbody>
+            <tr>
+                <th style="font-size:35px">System Time:  </th>
+                <th>
+                    <div id="datetime" style="font-size:35px">
+                        <script>
+                            setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 100);
+                        </script>
+                    </div>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="data">
+        <tbody>
+            <tr>
+                <th style="font-size:35px">----Time----</th>
+                <th style="font-size:35px">----Raw Result----</th>
+                <th style="font-size:35px">----Final Result----</th>
+            </tr>
+            <tr>
+                <th style="font-size:31px">05/03 23:43:58</th>
+                <th style="font-size:31px">Test</th>
+                <th style="font-size:31px">Success</th>
+
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
