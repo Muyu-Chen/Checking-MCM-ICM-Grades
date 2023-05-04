@@ -9,13 +9,16 @@ import random
 headers = {
     'user-agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
 }
+
+##The following function can be used to delete when the number of rows is too large.
 def sumline():
     lineno=0
     fileinput.close()
     for line in fileinput.input(r'.\MyICMGrades.html'):
         lineno=fileinput.filelineno()
     return lineno
-      
+
+##The following three functions are written to HTML to achieve visual purposes.
 def notget():
     print('notget is running')
     fileinput.close()
@@ -88,18 +91,19 @@ def interneterr():
 
 urlhave='https://www.contest.comap.com/Certform/index.html'
 urliwant='https://www.comap-math.com/mcm/2023Certs/2300368.pdf'
-urltest='https://baidu.com'
+
 while True:
     print('is running')
     YorNhave=requests.get(urlhave,headers=headers,timeout=5)
     print(YorNhave)
-    if str(YorNhave)=='<Response [200]>':##判断网页是否通畅
+    if str(YorNhave)=='<Response [200]>': ##Determine whether the network is unobstructed
         for i in range(5):
              time.sleep(110)
              time.sleep(20*random.random())
              res=requests.get(urliwant)
              print(res)
              if str(res)=='<Response [404]>':
+             ##Check whether it can be downloaded according to the team control number, and if it returns 404 (Page not found), it is not available for download.
                    notget()
                    time.sleep(110)
                    time.sleep(20*random.random())
@@ -110,28 +114,3 @@ while True:
     else:
         interneterr()
         time.sleep(15)
-
-
-'''
-        , encoding="utf-8"
-print(YorNhave)
-print(res2)
-
-
-for line in fileinput.input('data', backup='.bak',inplace = True):
-    # 在指定行后添加一行
-    if fileinput.lineno() == 1:
-        print(line.rstrip())
-        print('Hello world!')
-    else:
-        print(line.rstrip())
-
-
-
-
-
-
-#response = requests.get('https://www.comap-math.com/mcm/2022Certs/2200368.pdf',verify=False)
-#response.encoding = response.apparent_encoding
-#print(response.text)
-'''
