@@ -2,7 +2,7 @@
 
 #### Searching&Checking the grades of MCM/ICM
 
-GitHub链接：[Dengwen-Fu/Checking-MCM-ICM-Grades(github.com)](https://github.com/Dengwen-Fu/Cheaking-MCM-ICM-Grades)  
+GitHub链接：[Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.com/Muyu-Chen/Cheaking-MCM-ICM-Grades)  
 直接访问链接（目前服务器已过期）：[CheckingICMGrades](https://muyuchen.one:20056/MyICMGrades.html "CheakingICMGrades")  
 
 这个项目是我在等待美赛结果的时候写出来的，时间仓促，若有bug请友善提出。该项目原理与目的：根据以往证书下载地址推测出今年的证书下载地址，判断网页是否存在（存在代码：200，不存在代码：404）来判断成绩是否出来，并同步消息到一个网页（可在服务器上部署，也可在自己的电脑上运行）。    
@@ -38,7 +38,7 @@ Open "MainProgram.py", then open MyICMGrades.html to see the result.
 
 ### 说明：
 
-1. 如果你（您）有HTML基础，可以自行对HTML进行修饰与更改，如果没有，只需将上述文档以 **"右键->打开方式->选择其他应用->记事本"** 的方式打开并修改相应部分。 但请务必遵守[GPL开源协议(github.com)](https://github.com/Dengwen-Fu/Cheaking-MCM-ICM-Grades/blob/main/LICENSE)。
+1. 如果你（您）有HTML基础，可以自行对HTML进行修饰与更改，如果没有，只需将上述文档以 **"右键->打开方式->选择其他应用->记事本"** 的方式打开并修改相应部分。 但请务必遵守[GPL开源协议(github.com)](https://github.com/Muyu-Chen/Cheaking-MCM-ICM-Grades/blob/main/LICENSE)。
 
 2. 在打开python文件后，即可打开HTML文件，该网页设置为每1分钟自动刷新一次。若不想看见python的命令行窗口，则可以将”.py“后缀改为".pyw"。  If you do not want see the command, change '.py' to '.pyw'. 
 
