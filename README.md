@@ -2,8 +2,8 @@
 
 #### Searching&Checking the grades of MCM/ICM
 
-GitHub链接：[Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.com/Muyu-Chen/Cheaking-MCM-ICM-Grades)  
-直接访问链接：[CheckingICMGrades](http://47.109.109.48/gradecheck/MyICMGrades.html "CheakingICMGrades")  
+GitHub链接：[Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.com/Muyu-Chen/Checking-MCM-ICM-Grades)  
+直接访问链接：[CheckingICMGrades](http://47.109.109.48/gradecheck/MyICMGrades.html "CheckingICMGrades")  
 
 这个项目是我在等待美赛结果的时候写出来的，时间仓促，若有bug请友善提出。该项目原理与目的：根据以往证书下载地址推测出今年的证书下载地址，判断网页是否存在（存在代码：200，不存在代码：404）来判断成绩是否出来，并同步消息到一个网页（可在服务器上部署，也可在自己的电脑上运行）。    
 
@@ -23,7 +23,7 @@ urliwant='https://www.comap-math.com/mcm/2023Certs/2300368.pdf'
 与 “.html”文件第9行：  
 
 ```HTML
-This is a web created by python to cheak grades of team #2300368 by visiting the <a href="https://www.comap-math.com/mcm/2023Certs/2300368.pdf" title="cheak grades of team #2300368" target="_blank">webpage</a> of download the ICM certification. The program will visit the website every 110 to 130 seconds and show the result on this page.
+This is a web created by python to check grades of team #2300368 by visiting the <a href="https://www.comap-math.com/mcm/2023Certs/2300368.pdf" title="check grades of team #2300368" target="_blank">webpage</a> of download the ICM certification. The program will visit the website every 110 to 130 seconds and show the result on this page.
 ```
 
 请将上述代码中所有出现的“2300368”**修改为自己的美赛控制号**），并将两个代码中的链接的“2023Certs”中数字部分改为当年年份（例如2025年，则改为2025Certs）。  
@@ -37,7 +37,7 @@ Open "MainProgram.py", then open MyICMGrades.html to see the result.
 
 ### 说明：
 
-1. 如果你（您）有HTML基础，可以自行对HTML进行修饰与更改，如果没有，只需将上述文档以 **"右键->打开方式->选择其他应用->记事本"** 的方式打开并修改相应部分。 但请务必遵守[GPL开源协议(github.com)](https://github.com/Muyu-Chen/Cheaking-MCM-ICM-Grades/blob/main/LICENSE)。
+1. 如果你（您）有HTML基础，可以自行对HTML进行修饰与更改，如果没有，只需将上述文档以 **"右键->打开方式->选择其他应用->记事本"** 的方式打开并修改相应部分。 但请务必遵守[GPL开源协议(github.com)](https://github.com/Muyu-Chen/Checking-MCM-ICM-Grades/blob/main/LICENSE)。
 
 2. 在打开python文件后，即可打开HTML文件，该网页设置为每1分钟自动刷新一次。若不想看见python的命令行窗口，则可以将”.py“后缀改为".pyw"。  If you do not want see the command, change '.py' to '.pyw'. 
 
