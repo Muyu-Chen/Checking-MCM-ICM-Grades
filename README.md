@@ -3,7 +3,7 @@
 #### Searching&Checking the grades of MCM/ICM
 
 GitHub链接：[Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.com/Muyu-Chen/Cheaking-MCM-ICM-Grades)  
-直接访问链接（目前服务器已过期）：[CheckingICMGrades](https://muyuchen.one:20056/MyICMGrades.html "CheakingICMGrades")  
+直接访问链接：[CheckingICMGrades](http://47.109.109.48/gradecheck/MyICMGrades.html "CheakingICMGrades")  
 
 这个项目是我在等待美赛结果的时候写出来的，时间仓促，若有bug请友善提出。该项目原理与目的：根据以往证书下载地址推测出今年的证书下载地址，判断网页是否存在（存在代码：200，不存在代码：404）来判断成绩是否出来，并同步消息到一个网页（可在服务器上部署，也可在自己的电脑上运行）。    
 
