@@ -9,12 +9,11 @@ GitHub链接：[Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.co
 
 The purpose：According to the previous certificate download address, infer this year's certificate download address, determine whether the web page exists (presence code: 200, absence code: 404) to determine whether the score is out, and synchronize the message to a web page (can be deployed on the server or run on your own computer).    
 
-如果想直接看到效果，可以访问[这个链接（目前服务器已过期）](https://muyuchen.one:20056/MyICMGrades.html "CheckingICMGrades")，这个链接每隔2分钟更新一次。服务器只有公网动态IPv6（运营商免费提供），所以需要使用者**具备IPv6网络环境**（使用4G或5G是一定有的），SSL证书是用的免费的自签名证书，所以会提示有安全风险，请放心使用。  
+如果想直接看到效果，可以访问[这个链接](http://47.109.109.48/gradecheck/MyICMGrades.html "CheckingICMGrades")，这个链接每隔2分钟更新一次。服务器只有公网动态IPv6（运营商免费提供），所以需要使用者**具备IPv6网络环境**（使用4G或5G是一定有的），SSL证书是用的免费的自签名证书，所以会提示有安全风险，请放心使用。  
 
-If you want to see the effect directly, you can visit this [link (the server has expired)](https://muyuchen.one:20056/MyICMGrades.html "CheckingICMGrades"), which is updated every 2 minutes. Due to the author's financial constraints, the server only has public network dynamic IPv6 (provided by operators for free), so **users need to have an IPv6 network environment** (if you are not sure about this, you can use 4G or 5G), SSL certificate is a free self-signed certificate, so it will prompt security risks.Please use it with confidence.  
+If you want to see the effect directly, you can visit this [link](http://47.109.109.48/gradecheck/MyICMGrades.html "CheckingICMGrades"), which is updated every 2 minutes. Due to the author's financial constraints, the server only has public network dynamic IPv6 (provided by operators for free), so **users need to have an IPv6 network environment** (if you are not sure about this, you can use 4G or 5G), SSL certificate is a free self-signed certificate, so it will prompt security risks.Please use it with confidence.  
 
-### 自行部署前置部分(pre)：
-
+### 自行部署前置部分(pre)（目前还没写完）：
 1. 修改".py"文件的90行：  
 
 ```python
