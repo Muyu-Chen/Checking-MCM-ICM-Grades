@@ -37,17 +37,12 @@ This is a web created by python to check grades of team #2300368 by visiting the
 ```
 
 请将上述代码中所有出现的“2300368”**修改为自己的美赛控制号**），并将两个代码中的链接的“2023Certs”中数字部分改为当年年份（例如2025年，则改为2025Certs）。  
-
-也就是说，全局替换2300368为**你的**MCM/ICM的控制号，全局替换2023为**今年**的年份。
+也就是说，全局替换2300368为**你的**MCM/ICM的控制号，全局替换2023为**今年**的年份。  
+运行MainProgram.py，随后打开MyICMGrades.html即可看见。  
+用Linux？  用"nohup python3 MainProgram.py"在后台运行，即使退出终端/SSH，程序仍然会继续运行。  
 
 Please modify all occurrences of "2300368" in the above code to your own MCM/ICM control number，and change the numeric part of “2023Certs” of the link in the two codes to the current year (e.g., year 2025, then changes to 2025Cert).  
-
 That is, the global replacement 2300368 is your's MCM/ICM control number, and 2023 is replaced globally with the year of this year.
-
-
-运行MainProgram.py，随后打开MyICMGrades.html即可看见。  
-用Linux？  用"nohup python3 MainProgram.py"在后台运行，即使退出终端/SSH，程序仍然会继续运行。
-
 Open "MainProgram.py", then open MyICMGrades.html to see the result.  
 On Linux？ Use "nohup python3 MainProgram.py" to run it in the background, even if you exit the terminal/SSH, the program will still run.
 
