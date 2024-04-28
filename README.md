@@ -2,7 +2,7 @@
 
 [中文版本](#自动检查美赛成绩是否发布)  
 
-### Automatically Searching&Checking the Grades of COMAP MCM/ICM
+## Automatically Searching&Checking the Grades of COMAP MCM/ICM
 
 GitHub Link: [Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.com/Muyu-Chen/Checking-MCM-ICM-Grades)  
 Direct access link: [Checking ICM/MCM Grades](http://47.109.109.48/gradecheck/MyICMGrades.html "CheckingICMGrades")  
@@ -47,7 +47,7 @@ If you want to see the effect directly, you can visit this [link](http://47.109.
 
     
 
-### 自动检查美赛成绩是否发布
+## 自动检查美赛成绩是否发布
 
 1. GitHub链接：[Muyu-Chen/Checking-MCM-ICM-Grades(github.com)](https://github.com/Muyu-Chen/Checking-MCM-ICM-Grades)  
    直接访问链接：[Checking ICM/MCM Grades](http://47.109.109.48/gradecheck/MyICMGrades.html "CheckingICMGrades")
