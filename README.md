@@ -88,7 +88,7 @@ If you want to see the effect directly, you can visit this [link](http://47.109.
    
    1. 打开 "MainProgram.py"，随后打开 `MyICMGrades.html`即可看见结果。如果你不想看见”黑框框“，将后缀 '.py' 改为 '.pyw' 即可。
       
-      s
+
    
    # 以及，给个star吧！！！
    
