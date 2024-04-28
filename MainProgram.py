@@ -4,7 +4,7 @@ import requests
 import fileinput
 import time
 import random
-
+timeInterval=1200 #Define the time interval between two requests
 requests.adapters.DEFAULT_RETRIES = 5
 headers = {
     'user-agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36','Connection':'close'
@@ -46,7 +46,7 @@ def notget():
 def haveget():
     print('haveget is running')
     fileinput.close()
-    with fileinput.input(files='.\MyICMGrades.html',openhook=fileinput.hook_encoded('utf-8', ''),backup='.bak',inplace = True) as f:
+    with fileinput.input(files='.\MyICMGrades.html', backup='.bak',inplace = True) as f:
           for line in f:
              if f.lineno() == 41:
                  nowtime=str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))
@@ -69,7 +69,7 @@ def haveget():
 def interneterr():
     print('interneterr is running')
     fileinput.close()
-    with fileinput.input(files='.\MyICMGrades.html',openhook=fileinput.hook_encoded('utf-8', ''),backup='.bak',inplace = True) as f:
+    with fileinput.input(files='.\MyICMGrades.html', backup='.bak',inplace = True) as f:
           for line in f:
              if f.lineno() == 41:
                  nowtime=str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))
@@ -107,13 +107,13 @@ while True:
              if str(res)=='<Response [404]>':
              ##Check whether it can be downloaded according to the team control number, and if it returns 404 (Page not found), it is not available for download.
                    notget()
-                   print('notget is finished, then will sleep about 2 mins')
-                   time.sleep(110)
+                   print("notget is finished, then will sleep about "+ str(timeInterval/60) +" mins")
+                   time.sleep(timeInterval-10)
                    time.sleep(20*random.random())
                    print('awake')
              else:
                     haveget()
-                    time.sleep(110)
+                    time.sleep(timeGap-10)
                     time.sleep(20*random.random())
     else:
         interneterr()
