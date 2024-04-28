@@ -19,7 +19,7 @@ If you want to see the effect directly, you can visit this [link](http://47.109.
 
 1. install Python (version 3.10 used by the author), and then install the libraries `requests`, `fileinput`, `time`, and `random`.  
    
-   Revise 90th line of ".py" and 9th line of ".html" file：
+   Revise 93th line of ".py" and 9th line of ".html" file：
    
    ```python
    urliwant='https://www.comap-math.com/mcm/2023Certs/2300368.pdf'
@@ -63,7 +63,7 @@ If you want to see the effect directly, you can visit this [link](http://47.109.
    
    1. 安装Python（作者使用的版本为3.10），随后安装库 `requests`、`fileinput`、`time` 和 `random`。  
       
-      修改 ".py" 文件的第90行及 ".html" 文件的第9行代码如下：
+      修改 ".py" 文件的第93行及 ".html" 文件的第9行代码如下：
       
       ```python
       urliwant='https://www.comap-math.com/mcm/2023Certs/2300368.pdf'
