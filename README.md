@@ -42,9 +42,10 @@ If you want to see the effect directly, you can visit this [link](http://47.109.
 
 ### On Windows
 
-1. Open "MainProgram.py", then open `MyICMGrades.html` to see the result. If you do not want see the command, change '.py' to '.pyw'.
+1. Open "MainProgram.py", then open `MyICMGrades.html` to see the result. If you do not want see the command, change '.py' to '.pyw'.      
 
 
+    
 
 ### 自动检查美赛成绩是否发布
 
