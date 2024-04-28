@@ -1,6 +1,6 @@
 # Readme
 
-[Chinese Version](#自动检查美赛成绩是否发布) is following the English Version
+[中文版本](#自动检查美赛成绩是否发布)  
 
 ### Automatically Searching&Checking the Grades of COMAP MCM/ICM
 
