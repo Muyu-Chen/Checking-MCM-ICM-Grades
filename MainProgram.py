@@ -90,7 +90,7 @@ def interneterr():
                  print(line.rstrip())
 
 urlhave='https://www.contest.comap.com/Certform/index.html'
-urliwant='https://www.comap-math.com/mcm/2023Certs/2300368.pdf'
+urliwant='https://www.comap-math.com/mcm/2023Certs/2300368.pdf' ###change me!!!!
 
 while True:
     print('is running')
@@ -113,7 +113,7 @@ while True:
                    print('awake')
              else:
                     haveget()
-                    time.sleep(timeGap-10)
+                    time.sleep(timeInterval-10)
                     time.sleep(20*random.random())
     else:
         interneterr()
