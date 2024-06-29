@@ -45,6 +45,7 @@ If you want to see the effect directly, you can visit this [link](http://47.109.
 1. Open "MainProgram.py", then open `MyICMGrades.html` to see the result. If you do not want see the command, change '.py' to '.pyw'.      
 
 
+Besides GNU GENERAL PUBLIC LICENSE, I do not allow gitcode.com and its company to use and copy my code in any way.
     
 
 ## 自动检查美赛成绩是否发布
