@@ -46,7 +46,7 @@ def notget():
 def haveget():
     print('haveget is running')
     fileinput.close()
-    with fileinput.input(files='.\MyICMGrades.html', backup='.bak',inplace = True) as f:
+    with fileinput.FileInput(files='.\MyICMGrades.html', backup='.bak',inplace = True) as f:
           for line in f:
              if f.lineno() == 41:
                  nowtime=str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))
